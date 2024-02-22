@@ -1,0 +1,33 @@
+.row{
+    display: grid;
+    grid-template-columns: repeat( 3 , 4fr);
+}
+
+.fo{
+    display: grid;
+    grid-template-areas: 
+      'l l l l r r r r r r r r'
+    ;
+}
+
+footer .right{
+    grid-area: r;
+}
+
+footer .left{
+    grid-area: l;
+}
+
+.sos{
+    display: grid;
+    grid-template-areas: 
+     'o o o c c c c c c c c'
+    ;
+}
+
+.sos .col-lg-9{
+    grid-area: c;
+}
+.sos .col-lg-3{
+    grid-area: o;
+}

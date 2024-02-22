@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    direction: rtl;
+    font-family: iran;
+}
+
+@font-face {
+    font-family: iran;
+    src: url(../ss/BMitraBd.ttf);
+}
+
+body{
+    margin: 0px;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
